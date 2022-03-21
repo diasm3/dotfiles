@@ -1,0 +1,514 @@
+snippet ss "$$ $$"
+$$ ${1} $$
+endsnippet
+
+snippet ㄴㄴ "$$ $$"
+$$ ${1} $$
+endsnippet
+
+snippet lcolor "\color{red}"
+\color{${1:red}}
+endsnippet
+
+snippet lfrac "\frac{}{} 분수"
+\frac{${1}}{${2}}
+endsnippet
+
+snippet lssalign "$$ \begin{align} $$"
+$$
+\begin{align}
+${1} & = ${2} \\\\
+${3} & = ${4} \\\\
+\end{align}
+$$
+endsnippet
+
+snippet lalign "\begin{align}"
+\begin{align}
+${1} & = ${2} \\\\
+${3} & = ${4} \\\\
+\end{align}
+endsnippet
+
+snippet lssbeginArray "\begin{array}{rl}"
+$$
+\begin{array}{rlc}
+${1} & ${2} & ${3} \\\\
+${4} & ${5} & ${6} \\\\
+\end{array}
+$$
+endsnippet
+
+snippet larray "\begin{array}{rl}"
+\begin{array}{rl}
+${1} & ${2} & ${3} \\\\
+${4} & ${5} & ${6} \\\\
+\end{array}
+endsnippet
+
+snippet lssbeginMatrix "\begin{bmatrix}"
+$$
+\begin{bmatrix}
+${1} & ${2} & ${3} \\\\
+${4} & ${5} & ${6} \\\\
+\end{bmatrix}
+$$
+endsnippet
+
+snippet lbeginMatrix "\begin{bmatrix}"
+\begin{bmatrix}
+${1} & ${2} & ${3} \\\\
+${4} & ${5} & ${6} \\\\
+\end{bmatrix}
+endsnippet
+
+snippet lbox "\boxed{ ... }"
+\boxed{${1}}$0
+endsnippet
+
+snippet lhat "\hat{}"
+\hat{${1}}$0
+endsnippet
+
+snippet lwidehat "\widehat{}"
+\widehat{${1}}$0
+endsnippet
+
+snippet larrow_Left "\Leftarrow ⇐"
+\Leftarrow
+endsnippet
+
+snippet larrow_left "\leftarrow ←"
+\leftarrow
+endsnippet
+
+snippet larrow_left_right "\leftrightarrow ↔"
+\leftrightarrow
+endsnippet
+
+snippet larrow_long_left "\longleftarrow ←-"
+\longleftarrow
+endsnippet
+
+snippet larrow_Right "\Rightarrow ⇒"
+\Rightarrow
+endsnippet
+
+snippet larrow_right "\rightarrow →"
+\rightarrow
+endsnippet
+
+snippet larrow_long_right "\longrightarrow -→"
+\longrightarrow
+endsnippet
+
+snippet larrow_under_right "\underrightarrow →"
+\underrightarrow{${1}}$0
+endsnippet
+
+snippet larrow_Up "\Uparrow ⇑"
+\Uparrow
+endsnippet
+
+snippet larrow_up "\uparrow ↑"
+\uparrow
+endsnippet
+
+snippet larrow_down "\downarrow ↓"
+\downarrow
+endsnippet
+
+snippet loverset "\overset 글자 위로 올리기"
+\overset{${1}}{${2}}
+endsnippet
+
+snippet lbar "\bar{A} 문자 위에 막대기(작은 사이즈)"
+\bar{${1}}
+endsnippet
+
+snippet loverline "\overline{A} 문자 위에 막대기(길이 자동 조절)"
+\overline{${1}}
+endsnippet
+
+snippet loverline2 "\overline{\overline{A}} 2중 overline"
+\overline{\overline{${1}}}
+endsnippet
+
+# 특수기호, 논리식
+snippet left "←"
+←
+endsnippet
+snippet up "↑"
+↑
+endsnippet
+snippet right "→"
+→
+endsnippet
+snippet down "↓"
+↓
+endsnippet
+snippet symbol_left_right "↔"
+↔
+endsnippet
+snippet symbol_right "→"
+→
+endsnippet
+
+snippet symbol_not "¬"
+¬
+endsnippet
+
+snippet symbol_and "∧"
+∧
+endsnippet
+
+snippet symbol_or "∨"
+∨
+endsnippet
+
+snippet symbol_forall "∀"
+∀
+endsnippet
+snippet symbol_turn_a "∀"
+∀
+endsnippet
+snippet symbol_exists "∃"
+∃
+endsnippet
+snippet symbol_turn_e "∃"
+∃
+endsnippet
+snippet symbol_therefore "∴"
+∴
+endsnippet
+
+snippet land "\and ∧"
+\and 
+endsnippet
+
+snippet lor "\or ∨"
+\or 
+endsnippet
+
+snippet symbol_equiv "≡ 동치"
+≡ 
+endsnippet
+
+snippet symbol_floor "⌊x⌋ 바닥함수"
+⌊${1:x}⌋$2
+endsnippet
+
+snippet symbol_ceil "⌈x⌉ 천장함수"
+⌈${1:x}⌉$2
+endsnippet
+
+snippet ldef_floor_ceil "바닥 함수와 천장 함수 정의"
+$$
+\def\ceil#1{\lceil #1 \rceil}
+\def\floor#1{\lfloor #1 \rfloor}
+\def\frfr#1{\{ #1 \}}
+\def\bigceil#1{ \biggr\lceil #1 \biggr\rceil }
+\def\bigfloor#1{ \biggr\lfloor #1 \biggr\rfloor }
+$$
+endsnippet
+
+snippet ldef_abs "|x| 절대값 기호 정의"
+$$
+\def\abs#1{\lvert #1 \rvert}
+$$
+endsnippet
+
+snippet symbol_le "≤"
+≤
+endsnippet
+
+snippet symbol_aleph "aleph א"
+א
+endsnippet
+
+snippet	symbol_cdot "cdot"
+⋅
+endsnippet
+
+# 집합 -------------------------------------------------------------------------
+# emptyset
+snippet lemptyset "\emptyset (길쭉한)공집합 ∅"
+\emptyset
+endsnippet
+
+# emptyset nothing
+snippet lvarnothing "\varnothing 공집합 ∅"
+\varnothing
+endsnippet
+
+# cap
+snippet lcap "\cap 교집합 ∩"
+\cap
+endsnippet
+snippet symbol_cap "교집합 ∩"
+∩
+endsnippet
+
+# cup
+snippet lcup "\cup 합집합 ∪"
+\cup
+endsnippet
+snippet symbol_cup "합집합 ∪"
+∪
+endsnippet
+
+# subseteq
+snippet lsubseteq "\subseteq 부분집합 ⊆"
+\subseteq
+endsnippet
+
+# subsetneq
+snippet lsubsetneq "\subsetneq !부분집합 ⊊"
+\subsetneq
+endsnippet
+
+# subset
+snippet lsubset "\subset 진부분집합 ⊂"
+\subset
+endsnippet
+
+snippet lin "\in 원소 ∈"
+\in
+endsnippet
+snippet symbol_in "in ∈"
+∈
+endsnippet
+
+snippet linr "\ni 원소 ∈"
+\ni
+endsnippet
+
+# notin
+snippet lnotin "\notin 원소가 아님 ∉"
+\notin
+endsnippet
+snippet symbol_notin "not in ∉"
+∉
+endsnippet
+
+
+# 연산자 -----------------------------------------------------------------------
+# times
+snippet ltimes "\times 곱셈기호 ×"
+\times
+endsnippet
+
+# sum
+snippet lsum "\sum 합 Σ"
+\sum
+endsnippet
+
+snippet lsumm "\sum_{}^{} 합 Σ"
+\sum_{${1}}^{${2}}
+endsnippet
+
+snippet lpipe "\vert 파이프 |"
+\vert
+endsnippet
+
+# 그리스 문자 ------------------------------------------------------------------
+snippet lTheta "\Theta 쎄타 Θ"
+\Theta
+endsnippet
+
+snippet lDelta "\Delta 델타 Δ"
+\Delta
+endsnippet
+
+snippet ldelta "\delta 델타 δ"
+\delta
+endsnippet
+
+snippet lLambda "\Lambda 람다 Λ"
+\Lambda
+endsnippet
+
+snippet Lambda "람다 Λ"
+Λ
+endsnippet
+
+snippet llambda "\lambda 람다 λ"
+\lambda
+endsnippet
+
+snippet lambda "람다 λ"
+λ
+endsnippet
+
+snippet lSigma "\Sigma 시그마 Σ"
+\Sigma
+endsnippet
+
+snippet lsigma "\sigma 시그마 σ"
+\sigma
+endsnippet
+
+snippet lOmega "\Omega 오메가 Ω"
+\Omega
+endsnippet
+
+# 등호, 괄호 -------------------------------------------------------------------
+snippet l= "& ="
+& = 
+endsnippet
+
+snippet l} "\{ \}"
+\\{ ${1} \\}
+endsnippet
+
+snippet lapprox "\approx 근사값(물결 두 개) ≈"
+\approx
+endsnippet
+
+snippet lsim "\sim ~"
+\sim
+endsnippet
+
+snippet lequiv "\equiv 동치, 합동 ≡"
+\equiv
+endsnippet
+
+snippet ltherefore "\therefore 그러므로 ∴"
+\therefore
+endsnippet
+
+snippet lspace "\ 스페이스"
+ \ 
+endsnippet
+
+snippet lspaceThin "\; 얇은 스페이스"
+\;
+endsnippet
+
+snippet lspaceWide "\quad 넓은 스페이스"
+\quad
+endsnippet
+
+snippet lspaceMoreWide "\qquad 더 넓은 스페이스"
+\qquad
+endsnippet
+
+snippet lbackslash "\backslash 백슬래시 \"
+\backslash
+endsnippet
+
+# 그 외 LaTeX 문법
+snippet lcases "\begin{cases} ... \end{cases}"
+T(n) =
+\begin{cases}
+    \Theta(1), & n = 1 \\\\
+    T(n/2) + \Theta(1), & n \ge 2 \\\\
+\end{cases}
+endsnippet
+
+# html entity -----------------------------------------------------------------
+snippet html| "&#124; (| 파이프 기호)"
+&#124;
+endsnippet
+
+snippet html< "&lt; (< 부등호)"
+&lt;
+endsnippet
+
+snippet html> "&gt; (> 부등호)"
+&gt;
+endsnippet
+
+snippet html "&nbsp; (스페이스)"
+&nbsp;
+endsnippet
+
+snippet html- "&#45; (- 대시)"
+&#45;
+endsnippet
+
+snippet br "<br/>"
+<br/>
+endsnippet
+
+snippet today
+Today is the `date +%d.%m.%y`.
+endsnippet
+
+snippet title "Title transformation"
+${1:a text}
+${1/\w+\s*/\u$0/}
+endsnippet
+
+snippet wow
+${1:Text}`!p snip.rv = (30-2*len(t[1]))*' '+t[1].upper()`
+endsnippet
+
+snippet <
+<${1:tag}>`!p snip.rv = '</'+t[1]+'>'`$0
+endsnippet
+
+snippet indent
+Indent is: `!v indent(".")`.
+endsnippet
+
+snippet emsp
+&emsp;
+endsnippet
+
+snippet box
+┌───────┐ ┌───┬───┐ 
+│       │ │   │   │ 
+└───────┘ └───┴───┘ 
+┌───────┐
+│       │
+├───────┤
+└───────┘
+┌─┬┐  ╔═╦╗  ╓─╥╖  ╒═╤╕
+│ ││  ║ ║║  ║ ║║  │ ││
+├─┼┤  ╠═╬╣  ╟─╫╢  ╞═╪╡
+└─┴┘  ╚═╩╝  ╙─╨╜  ╘═╧╛
+┌───────────────────┐
+│  ╔═══╗ Some Text  │▒
+│  ╚═╦═╝ in the box │▒
+╞═╤══╩══╤═══════════╡▒
+│ ├──┬──┤           │▒
+│ └──┴──┘           │▒
+└───────────────────┘▒
+ ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+endsnippet
+
+snippet ! "image"
+![${2}]( ${3:..}/post-img/`!p snip.rv = snip.basename`${1} )
+${0}
+endsnippet
+
+snippet detail "접기/펼치기"
+<details><summary>${1:접기/펼치기}</summary><div markdown="1">
+</div></details>
+endsnippet
+
+snippet fold "접기/펼치기"
+<details><summary>${1:접기/펼치기}</summary><div markdown="1">
+</div></details>
+endsnippet
+
+snippet style-green "style=background-color: #ecf1e8"
+{:style="background-color: #ecf1e8;"}
+endsnippet
+
+snippet style-blue "style=background-color: #e9f1f6"
+{:style="background-color: #e9f1f6;"}
+endsnippet
+
+snippet style-yellow "style=background-color: #fff9e4;"
+{:style="background-color: #fff9e4;"}
+endsnippet
+
+snippet sup "<sup></sup>"
+<sup>${1}</sup>
+endsnippet
+
+snippet width "{:style='max-width:350px'}"
+{:style="max-width:350px"}
+endsnippet

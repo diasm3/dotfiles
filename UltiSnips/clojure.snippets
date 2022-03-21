@@ -1,0 +1,23 @@
+# Clojure
+
+snippet defn "(defn 함수-정의 [])"
+(defn ${1:함수-이름}
+	"${2:함수에 대한 설명}"
+	[${3:인자1}]
+	${4:함수본문})
+endsnippet
+
+snippet if "if"
+(if ${1:true}
+	true
+	false)
+endsnippet
+
+snippet today
+"Today is `date +%Y.%m.%d`."
+endsnippet
+
+snippet "([^\s].*)\.([^s].*)" "Object.method -> (.method Object)" r
+(`!p snip.rv = "." + match.group(2) + " " + match.group(1)`)$0
+endsnippet
+
