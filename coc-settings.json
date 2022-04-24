@@ -1,4 +1,5 @@
 {
+    "python.pythonPath": "~/dotfiles/coc-pyright_setup",
     "languageserver": {
         "clojure-lsp": {
             "command": "bash",
