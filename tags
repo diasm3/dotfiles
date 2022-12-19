@@ -1,0 +1,451 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+$GINKGO_EDITOR_INTEGRATION	vim-include/set-vim-go.vim	/^let $GINKGO_EDITOR_INTEGRATION = "true"$/;"	v
+$NVIM_TUI_ENABLE_TRUE_COLOR	init.vim	/^let $NVIM_TUI_ENABLE_TRUE_COLOR=1$/;"	v
+&	init.vim	/^    nnoremap & :&&<CR>$/;"	m
+<A-1>	init.vim	/^        nmap <A-1> :CocCommand explorer<CR>$/;"	m
+<A-2>	init.vim	/^        nmap <A-2> :TagbarToggle<CR>:e<CR>$/;"	m
+<A-3>	init.vim	/^        nmap <A-3> :Startify<CR>$/;"	m
+<C-J>	vim-include/set-copilot.vim	/^imap <silent><script><expr> <C-J> copilot#Accept("\\<CR>")$/;"	m
+<C-e>	init.vim	/^    inoremap <C-e> <C-O>\$$/;"	m
+<C-l>	init.vim	/^    inoremap <C-l> <right>$/;"	m
+<C-n>	vim-include/set-vim-go.vim	/^nnoremap <C-n> :cnext<CR>$/;"	m
+<C-p>	vim-include/set-vim-go.vim	/^nnoremap <C-p> :cprevious<CR>$/;"	m
+<C-t>	init.vim	/^    vnoremap <C-t> :Tabularize \/$/;"	m
+<C-x><C-l>	vim-include/set-fzf.vim	/^imap <C-x><C-l> <plug>(fzf-complete-line)$/;"	m
+<F1><F1><F8>	vim-include/set-coc.vim	/^nmap <F1><F1><F8> :CocCommand explorer<CR>$/;"	m
+<F1><F8>	vim-include/set-coc.vim	/^nmap <F1><F8> :CocCommand explorer --preset floatingLeftside<CR>$/;"	m
+<F2><F1>	init.vim	/^    nnoremap <silent> <F2><F1>    :bprevious!<CR>$/;"	m
+<F2><F3>	init.vim	/^    nnoremap <silent> <F2><F3>    :bnext!<CR>$/;"	m
+<F2>d	init.vim	/^    nnoremap <silent> <F2>d       :bd!<CR>$/;"	m
+<F2>o	init.vim	/^    nnoremap <silent> <F2>o      :%bd <BAR> e # <BAR> bd #<CR>$/;"	m
+<F2>q	init.vim	/^    nnoremap <silent> <F2>q      :bp <BAR> bd #<CR>$/;"	m
+<LocalLeader>e	vim-include/set-nerdtree.vim	/^nmap <LocalLeader>e :CocCommand explorer<CR>$/;"	m
+<LocalLeader>w<LocalLeader>t	vim-include/set-vimwiki.vim	/^nmap <LocalLeader>w<LocalLeader>t <Plug>VimwikiTabMakeDiaryNote$/;"	m
+<LocalLeader>w<LocalLeader>w	vim-include/set-vimwiki.vim	/^nmap <LocalLeader>w<LocalLeader>w <Plug>VimwikiMakeDiaryNote$/;"	m
+<LocalLeader>w<LocalLeader>y	vim-include/set-vimwiki.vim	/^nmap <LocalLeader>w<LocalLeader>y <Plug>VimwikiMakeYesterdayDiaryNote$/;"	m
+<LocalLeader>wh	vim-include/set-vimwiki.vim	/^nmap <LocalLeader>wh <Plug>Vimwiki2HTML$/;"	m
+<LocalLeader>whh	vim-include/set-vimwiki.vim	/^nmap <LocalLeader>whh <Plug>Vimwiki2HTMLBrowse$/;"	m
+<LocalLeader>wi	vim-include/set-vimwiki.vim	/^nmap <LocalLeader>wi <Plug>VimwikiDiaryIndex$/;"	m
+<LocalLeader>ws	vim-include/set-vimwiki.vim	/^nmap <LocalLeader>ws <Plug>VimwikiUISelect$/;"	m
+<LocalLeader>wt	vim-include/set-vimwiki.vim	/^nmap <LocalLeader>wt :VimwikiTable<CR>$/;"	m
+<LocalLeader>ww	vim-include/set-vimwiki.vim	/^nmap <LocalLeader>ww <Plug>VimwikiIndex$/;"	m
+<M-/>	init.vim	/^    nnoremap <M-\/> :echom "[1] Explorer  [2] Tagbar"<CR>$/;"	m
+<PageDown>	init.vim	/^    nnoremap <silent> <PageDown>  :bprevious!<CR>$/;"	m
+<PageUp>	init.vim	/^    nnoremap <silent> <PageUp>    :bnext!<CR>$/;"	m
+<Space>D	init.vim	/^    nnoremap <Space>D "+yD$/;"	m
+<Space>P	init.vim	/^    nnoremap <Space>P "+P$/;"	m
+<Space>Y	init.vim	/^    nnoremap <Space>Y "+yg_$/;"	m
+<Space>d	init.vim	/^    nnoremap <Space>d "+d$/;"	m
+<Space>d	init.vim	/^    vnoremap <Space>d "+d$/;"	m
+<Space>k	init.vim	/^    nnoremap <Space>k i<CR><Esc>$/;"	m
+<Space>p	init.vim	/^    nnoremap <Space>p "+p$/;"	m
+<Space>w	init.vim	/^    nnoremap <Space>w :w<CR>$/;"	m
+<Space>y	init.vim	/^    nnoremap <Space>y "+y$/;"	m
+<Space>y	init.vim	/^    vnoremap <Space>y "+y$/;"	m
+<TAB>	vim-include/set-coc.vim	/^inoremap <silent><expr> <TAB>$/;"	m
+<Tab>d	vim-include/set-vimwiki.vim	/^nmap <Tab>d 0f]lli__date<Space><esc>$/;"	m
+<c-s>	vim-include/set-easymotion.vim	/^imap <c-s> <c-o><Plug>(easymotion-s)$/;"	m
+<c-s>	vim-include/set-easymotion.vim	/^map  <c-s> <Plug>(easymotion-prefix)$/;"	m
+<c-s>	vim-include/set-easymotion.vim	/^nmap <c-s> <Plug>(easymotion-s)$/;"	m
+<c-s>	vim-include/set-easymotion.vim	/^vmap <c-s> <Plug>(easymotion-s)$/;"	m
+<c-s>2	vim-include/set-easymotion.vim	/^nmap <c-s>2 <Plug>(easymotion-overwin-f2)$/;"	m
+<c-s>B	vim-include/set-easymotion.vim	/^vmap <c-s>B <Plug>(easymotion-B)$/;"	m
+<c-s>W	vim-include/set-easymotion.vim	/^nmap <c-s>W <Plug>(easymotion-W)$/;"	m
+<c-s>W	vim-include/set-easymotion.vim	/^vmap <c-s>W <Plug>(easymotion-W)$/;"	m
+<c-s>a	vim-include/set-easymotion.vim	/^nmap <c-s>a <Plug>(easymotion-jumptoanywhere)$/;"	m
+<c-s>a	vim-include/set-easymotion.vim	/^vmap <c-s>a <Plug>(easymotion-jumptoanywhere)$/;"	m
+<c-s>b	vim-include/set-easymotion.vim	/^nmap <c-s>b <Plug>(easymotion-b)$/;"	m
+<c-s>h	vim-include/set-easymotion.vim	/^nmap <c-s>h <Plug>(easymotion-linebackward)$/;"	m
+<c-s>h	vim-include/set-easymotion.vim	/^vmap <c-s>h <Plug>(easymotion-linebackward)$/;"	m
+<c-s>j	vim-include/set-easymotion.vim	/^nmap <c-s>j <Plug>(easymotion-j)$/;"	m
+<c-s>j	vim-include/set-easymotion.vim	/^vmap <c-s>j <Plug>(easymotion-j)$/;"	m
+<c-s>k	vim-include/set-easymotion.vim	/^nmap <c-s>k <Plug>(easymotion-k)$/;"	m
+<c-s>k	vim-include/set-easymotion.vim	/^vmap <c-s>k <Plug>(easymotion-k)$/;"	m
+<c-s>l	vim-include/set-easymotion.vim	/^nmap <c-s>l <Plug>(easymotion-lineforward)$/;"	m
+<c-s>l	vim-include/set-easymotion.vim	/^vmap <c-s>l <Plug>(easymotion-lineforward)$/;"	m
+<c-s>w	vim-include/set-easymotion.vim	/^nmap <c-s>w <Plug>(easymotion-w)$/;"	m
+<c-s>w	vim-include/set-easymotion.vim	/^vmap <c-s>w <Plug>(easymotion-w)$/;"	m
+<c-space>	vim-include/set-coc.vim	/^inoremap <silent><expr> <c-space> coc#refresh()$/;"	m
+<f1>	vim-include/set-fzf.vim	/^nnoremap <f1> <nop>$/;"	m
+<f1>/	vim-include/set-fzf.vim	/^nnoremap <f1>\/ :History\/<CR>$/;"	m
+<f1>;	vim-include/set-fzf.vim	/^nnoremap <f1>; :History:<CR>$/;"	m
+<f1><PageDown>	vim-include/set-fzf.vim	/^nnoremap <f1><PageDown> :UltiSnipsEdit<CR>$/;"	m
+<f1>a	vim-include/set-fzf.vim	/^nnoremap <f1>a :Ag<CR>$/;"	m
+<f1>l	vim-include/set-fzf.vim	/^nnoremap <f1>l :Lines<CR>$/;"	m
+<f1>t	vim-include/set-fzf.vim	/^nnoremap <f1>t :Tags ^<CR>$/;"	m
+<f1>u	vim-include/set-fzf.vim	/^nnoremap <f1>u call fzf#vim#ag('', {'options': '--select-2'})$/;"	m
+<leader>rn	vim-include/set-coc.vim	/^nmap <leader>rn <Plug>(coc-rename)$/;"	m
+<nowait>	init.vim	/^    nnoremap <nowait> <Esc>+ <C-w>+$/;"	m
+<nowait>	init.vim	/^    nnoremap <nowait> <Esc>< <C-w><$/;"	m
+<nowait>	init.vim	/^    nnoremap <nowait> <Esc>> <C-w>>$/;"	m
+<nowait>	init.vim	/^    nnoremap <nowait> <Esc>_ <C-w>-$/;"	m
+<nowait>	vim-include/set-fzf.vim	/^nnoremap <nowait> <F1><F12> :Snippets<CR>$/;"	m
+<nowait>	vim-include/set-fzf.vim	/^nnoremap <nowait> <f0><F7> :execute ":Tags " . expand('<cword>')<CR>$/;"	m
+<nowait>	vim-include/set-fzf.vim	/^nnoremap <nowait> <f1><CR> :Marks<CR>$/;"	m
+<nowait>	vim-include/set-fzf.vim	/^nnoremap <nowait> <f1><f1> :call FzfOmniFiles()<CR>$/;"	m
+<nowait>	vim-include/set-fzf.vim	/^nnoremap <nowait> <f1><f2> :Buffers<CR>$/;"	m
+<nowait>	vim-include/set-fzf.vim	/^nnoremap <nowait> <f1><f3> :History<CR>$/;"	m
+=e	init.vim	/^    nnoremap =e :Autoformat<CR>$/;"	m
+CurrentFileI	vim-include/set-vim-textobj-user.vim	/^function! CurrentFileI()$/;"	f
+Files	vim-include/set-fzf.vim	/^command! -bang -nargs=? -complete=dir Files$/;"	c
+FzfOmniFiles	vim-include/set-fzf.vim	/^function! FzfOmniFiles()$/;"	f
+GetFileAddress	init.vim	/^    command! GetFileAddress :let @*=expand('%:p')$/;"	c
+GetFileAddress	init.vim	/^    command! GetFileAddress :let @*=substitute(expand("%:p"), "\/", "\\\\", "g")<CR>$/;"	c
+GetFileName	init.vim	/^    command! GetFileName :let @*=expand('%')$/;"	c
+GetFileName	init.vim	/^    command! GetFileName :let @*=substitute(expand("%"), "\/", "\\\\", "g")$/;"	c
+InstallCocPlugins	init.vim	/^function! InstallCocPlugins()$/;"	f
+LastModified	vim-include/set-vimwiki.vim	/^function! LastModified()$/;"	f
+LooksLikePerl6	vim-include/ft-perl6.vim	/^function! LooksLikePerl6 ()$/;"	f
+Ncd	init.vim	/^command! Ncd :cd %:p:h$/;"	c
+NewTemplate	vim-include/set-vimwiki.vim	/^function! NewTemplate()$/;"	f
+OpenAsciidocFile	vim-include/set-asciidoc.vim	/^function! OpenAsciidocFile()$/;"	f
+OptionParser	bin/markdown2ctags.py	/^    from optparse import OptionParser$/;"	i
+RefreshTagbar	vim-include/set-vimwiki.vim	/^function! RefreshTagbar()$/;"	f
+ScriptError	bin/markdown2ctags.py	/^class ScriptError(Exception):$/;"	c
+Section	bin/markdown2ctags.py	/^class Section(object):$/;"	c
+TESM	Makefile	/^TESM=12000$/;"	m
+Tag	bin/markdown2ctags.py	/^class Tag(object):$/;"	c
+ToHtml	init.vim	/^command! ToHtml :so $VIMRUNTIME\/syntax\/2html.vim$/;"	c
+ToggleNumber	init.vim	/^function! ToggleNumber()$/;"	f
+UpdateBookProgress	vim-include/set-vimwiki.vim	/^function! UpdateBookProgress()$/;"	f
+WikiIndex	vim-include/set-vimwiki.vim	/^command! WikiIndex :VimwikiIndex$/;"	c
+Y	init.vim	/^    nnoremap Y y\$$/;"	m
+[g	vim-include/set-coc.vim	/^nmap <silent> [g <Plug>(coc-diagnostic-prev)$/;"	m
+\<BS>	init.vim	/^    nnoremap \\<BS> :vs ~\/blog\/_wiki\/todo.md<CR>$/;"	m
+\\d	init.vim	/^    nnoremap \\\\d :MacDictQuery<CR>$/;"	m
+\\m	init.vim	/^    nnoremap \\\\m :e ~\/dotfiles\/vim-memo\/$/;"	m
+\\s	vim-include/set-startify.vim	/^nmap \\\\s :SSave<CR>$/;"	m
+\d	init.vim	/^    nnoremap \\d :MacDictWord<CR>$/;"	m
+\h	init.vim	/^    nnoremap \\h :UltiSnipsEdit help<CR>$/;"	m
+\m	init.vim	/^    nnoremap \\m :vs ~\/blog\/_wiki\/2022.md<CR>$/;"	m
+\q	vim-include/set-vim-go.vim	/^nnoremap \\q :call ToggleQuickfixList()<CR>$/;"	m
+\r	init.vim	/^    nnoremap \\r :RainbowToggle<CR>$/;"	m
+\s	vim-include/set-startify.vim	/^nmap \\s :Startify<CR>$/;"	m
+\t	vim-include/set-tagbar.vim	/^nnoremap \\t :TagbarToggle<CR>:e<CR>$/;"	m
+\u	init.vim	/^    nnoremap \\u :UltiSnipsEdit<CR>$/;"	m
+\z	init.vim	/^    nnoremap \\z :MundoToggle<CR>$/;"	m
+]g	vim-include/set-coc.vim	/^nmap <silent> ]g <Plug>(coc-diagnostic-next)$/;"	m
+__eq__	bin/markdown2ctags.py	/^    def __eq__(self, other):$/;"	m	class:Tag	file:
+__ge__	bin/markdown2ctags.py	/^    def __ge__(self, other):$/;"	m	class:Tag	file:
+__git	bin/git-completion.bash	/^__git ()$/;"	f
+__git_aliased_command	bin/git-completion.bash	/^__git_aliased_command ()$/;"	f
+__git_complete	bin/git-completion.bash	/^__git_complete ()$/;"	f
+__git_complete_command	bin/git-completion.bash	/^__git_complete_command () {$/;"	f
+__git_complete_common	bin/git-completion.bash	/^__git_complete_common () {$/;"	f
+__git_complete_config_variable_name	bin/git-completion.bash	/^__git_complete_config_variable_name ()$/;"	f
+__git_complete_config_variable_name_and_value	bin/git-completion.bash	/^__git_complete_config_variable_name_and_value ()$/;"	f
+__git_complete_config_variable_value	bin/git-completion.bash	/^__git_complete_config_variable_value ()$/;"	f
+__git_complete_fetch_refspecs	bin/git-completion.bash	/^__git_complete_fetch_refspecs ()$/;"	f
+__git_complete_file	bin/git-completion.bash	/^__git_complete_file ()$/;"	f
+__git_complete_force_with_lease	bin/git-completion.bash	/^__git_complete_force_with_lease ()$/;"	f
+__git_complete_index_file	bin/git-completion.bash	/^__git_complete_index_file ()$/;"	f
+__git_complete_refs	bin/git-completion.bash	/^__git_complete_refs ()$/;"	f
+__git_complete_remote_or_refspec	bin/git-completion.bash	/^__git_complete_remote_or_refspec ()$/;"	f
+__git_complete_revlist	bin/git-completion.bash	/^__git_complete_revlist ()$/;"	f
+__git_complete_revlist_file	bin/git-completion.bash	/^__git_complete_revlist_file ()$/;"	f
+__git_complete_strategy	bin/git-completion.bash	/^__git_complete_strategy ()$/;"	f
+__git_complete_symbol	bin/git-completion.bash	/^__git_complete_symbol () {$/;"	f
+__git_compute_all_commands	bin/git-completion.bash	/^__git_compute_all_commands ()$/;"	f
+__git_compute_config_vars	bin/git-completion.bash	/^__git_compute_config_vars ()$/;"	f
+__git_compute_merge_strategies	bin/git-completion.bash	/^__git_compute_merge_strategies ()$/;"	f
+__git_config_get_set_variables	bin/git-completion.bash	/^__git_config_get_set_variables ()$/;"	f
+__git_count_arguments	bin/git-completion.bash	/^__git_count_arguments ()$/;"	f
+__git_dequote	bin/git-completion.bash	/^__git_dequote ()$/;"	f
+__git_find_on_cmdline	bin/git-completion.bash	/^__git_find_on_cmdline ()$/;"	f
+__git_find_repo_path	bin/git-completion.bash	/^__git_find_repo_path ()$/;"	f
+__git_func_wrap	bin/git-completion.bash	/^__git_func_wrap ()$/;"	f
+__git_get_config_variables	bin/git-completion.bash	/^__git_get_config_variables ()$/;"	f
+__git_get_option_value	bin/git-completion.bash	/^__git_get_option_value ()$/;"	f
+__git_has_doubledash	bin/git-completion.bash	/^__git_has_doubledash ()$/;"	f
+__git_heads	bin/git-completion.bash	/^__git_heads ()$/;"	f
+__git_index_files	bin/git-completion.bash	/^__git_index_files ()$/;"	f
+__git_is_configured_remote	bin/git-completion.bash	/^__git_is_configured_remote ()$/;"	f
+__git_list_merge_strategies	bin/git-completion.bash	/^__git_list_merge_strategies ()$/;"	f
+__git_ls_files_helper	bin/git-completion.bash	/^__git_ls_files_helper ()$/;"	f
+__git_main	bin/git-completion.bash	/^__git_main ()$/;"	f
+__git_match_ctag	bin/git-completion.bash	/^__git_match_ctag () {$/;"	f
+__git_pretty_aliases	bin/git-completion.bash	/^__git_pretty_aliases ()$/;"	f
+__git_reassemble_comp_words_by_ref	bin/git-completion.bash	/^__git_reassemble_comp_words_by_ref()$/;"	f
+__git_refs	bin/git-completion.bash	/^__git_refs ()$/;"	f
+__git_refs2	bin/git-completion.bash	/^__git_refs2 ()$/;"	f
+__git_refs_remotes	bin/git-completion.bash	/^__git_refs_remotes ()$/;"	f
+__git_remotes	bin/git-completion.bash	/^__git_remotes ()$/;"	f
+__git_support_parseopt_helper	bin/git-completion.bash	/^__git_support_parseopt_helper () {$/;"	f
+__git_tags	bin/git-completion.bash	/^__git_tags ()$/;"	f
+__gitcomp	bin/git-completion.bash	/^	__gitcomp ()$/;"	f
+__gitcomp	bin/git-completion.bash	/^__gitcomp ()$/;"	f
+__gitcomp_builtin	bin/git-completion.bash	/^__gitcomp_builtin ()$/;"	f
+__gitcomp_direct	bin/git-completion.bash	/^	__gitcomp_direct ()$/;"	f
+__gitcomp_direct	bin/git-completion.bash	/^__gitcomp_direct ()$/;"	f
+__gitcomp_file	bin/git-completion.bash	/^	__gitcomp_file ()$/;"	f
+__gitcomp_file	bin/git-completion.bash	/^__gitcomp_file ()$/;"	f
+__gitcomp_file_direct	bin/git-completion.bash	/^	__gitcomp_file_direct ()$/;"	f
+__gitcomp_file_direct	bin/git-completion.bash	/^__gitcomp_file_direct ()$/;"	f
+__gitcomp_nl	bin/git-completion.bash	/^	__gitcomp_nl ()$/;"	f
+__gitcomp_nl	bin/git-completion.bash	/^__gitcomp_nl ()$/;"	f
+__gitcomp_nl_append	bin/git-completion.bash	/^__gitcomp_nl_append ()$/;"	f
+__gitcompadd	bin/git-completion.bash	/^__gitcompadd ()$/;"	f
+__gitcompappend	bin/git-completion.bash	/^__gitcompappend ()$/;"	f
+__gitdir	bin/git-completion.bash	/^__gitdir ()$/;"	f
+__gitk_main	bin/git-completion.bash	/^__gitk_main ()$/;"	f
+__gt__	bin/markdown2ctags.py	/^    def __gt__(self, other):$/;"	m	class:Tag	file:
+__init__	bin/markdown2ctags.py	/^    def __init__(self, level, name, line, line_number, filename, parent=None):$/;"	m	class:Section
+__init__	bin/markdown2ctags.py	/^    def __init__(self, tag_name, tag_file, tag_address):$/;"	m	class:Tag
+__le__	bin/markdown2ctags.py	/^    def __le__(self, other):$/;"	m	class:Tag	file:
+__lt__	bin/markdown2ctags.py	/^    def __lt__(self, other):$/;"	m	class:Tag	file:
+__ne__	bin/markdown2ctags.py	/^    def __ne__(self, other):$/;"	m	class:Tag	file:
+__repr__	bin/markdown2ctags.py	/^    def __repr__(self):$/;"	m	class:Section	file:
+__repr__	bin/markdown2ctags.py	/^    def __repr__(self):$/;"	m	class:Tag	file:
+__version__	bin/markdown2ctags.py	/^__version__ = "0.3.4.dev0"$/;"	v
+_format_fields	bin/markdown2ctags.py	/^    def _format_fields(self):$/;"	m	class:Tag
+_get_comp_words_by_ref	bin/git-completion.bash	/^_get_comp_words_by_ref ()$/;"	f
+_git	bin/git-completion.bash	/^	_git ()$/;"	f
+_git	bin/git-completion.bash	/^_git ()$/;"	f
+_git_add	bin/git-completion.bash	/^_git_add ()$/;"	f
+_git_am	bin/git-completion.bash	/^_git_am ()$/;"	f
+_git_apply	bin/git-completion.bash	/^_git_apply ()$/;"	f
+_git_archive	bin/git-completion.bash	/^_git_archive ()$/;"	f
+_git_bisect	bin/git-completion.bash	/^_git_bisect ()$/;"	f
+_git_branch	bin/git-completion.bash	/^_git_branch ()$/;"	f
+_git_bundle	bin/git-completion.bash	/^_git_bundle ()$/;"	f
+_git_checkout	bin/git-completion.bash	/^_git_checkout ()$/;"	f
+_git_cherry_pick	bin/git-completion.bash	/^_git_cherry_pick ()$/;"	f
+_git_clean	bin/git-completion.bash	/^_git_clean ()$/;"	f
+_git_clone	bin/git-completion.bash	/^_git_clone ()$/;"	f
+_git_commit	bin/git-completion.bash	/^_git_commit ()$/;"	f
+_git_config	bin/git-completion.bash	/^_git_config ()$/;"	f
+_git_describe	bin/git-completion.bash	/^_git_describe ()$/;"	f
+_git_diff	bin/git-completion.bash	/^_git_diff ()$/;"	f
+_git_difftool	bin/git-completion.bash	/^_git_difftool ()$/;"	f
+_git_fetch	bin/git-completion.bash	/^_git_fetch ()$/;"	f
+_git_format_patch	bin/git-completion.bash	/^_git_format_patch ()$/;"	f
+_git_fsck	bin/git-completion.bash	/^_git_fsck ()$/;"	f
+_git_gitk	bin/git-completion.bash	/^_git_gitk ()$/;"	f
+_git_grep	bin/git-completion.bash	/^_git_grep ()$/;"	f
+_git_help	bin/git-completion.bash	/^_git_help ()$/;"	f
+_git_init	bin/git-completion.bash	/^_git_init ()$/;"	f
+_git_log	bin/git-completion.bash	/^_git_log ()$/;"	f
+_git_ls_files	bin/git-completion.bash	/^_git_ls_files ()$/;"	f
+_git_ls_remote	bin/git-completion.bash	/^_git_ls_remote ()$/;"	f
+_git_ls_tree	bin/git-completion.bash	/^_git_ls_tree ()$/;"	f
+_git_merge	bin/git-completion.bash	/^_git_merge ()$/;"	f
+_git_merge_base	bin/git-completion.bash	/^_git_merge_base ()$/;"	f
+_git_mergetool	bin/git-completion.bash	/^_git_mergetool ()$/;"	f
+_git_mv	bin/git-completion.bash	/^_git_mv ()$/;"	f
+_git_notes	bin/git-completion.bash	/^_git_notes ()$/;"	f
+_git_pull	bin/git-completion.bash	/^_git_pull ()$/;"	f
+_git_push	bin/git-completion.bash	/^_git_push ()$/;"	f
+_git_range_diff	bin/git-completion.bash	/^_git_range_diff ()$/;"	f
+_git_rebase	bin/git-completion.bash	/^_git_rebase ()$/;"	f
+_git_reflog	bin/git-completion.bash	/^_git_reflog ()$/;"	f
+_git_remote	bin/git-completion.bash	/^_git_remote ()$/;"	f
+_git_replace	bin/git-completion.bash	/^_git_replace ()$/;"	f
+_git_rerere	bin/git-completion.bash	/^_git_rerere ()$/;"	f
+_git_reset	bin/git-completion.bash	/^_git_reset ()$/;"	f
+_git_restore	bin/git-completion.bash	/^_git_restore ()$/;"	f
+_git_revert	bin/git-completion.bash	/^_git_revert ()$/;"	f
+_git_rm	bin/git-completion.bash	/^_git_rm ()$/;"	f
+_git_send_email	bin/git-completion.bash	/^_git_send_email ()$/;"	f
+_git_shortlog	bin/git-completion.bash	/^_git_shortlog ()$/;"	f
+_git_show	bin/git-completion.bash	/^_git_show ()$/;"	f
+_git_show_branch	bin/git-completion.bash	/^_git_show_branch ()$/;"	f
+_git_stage	bin/git-completion.bash	/^_git_stage ()$/;"	f
+_git_stash	bin/git-completion.bash	/^_git_stash ()$/;"	f
+_git_status	bin/git-completion.bash	/^_git_status ()$/;"	f
+_git_submodule	bin/git-completion.bash	/^_git_submodule ()$/;"	f
+_git_svn	bin/git-completion.bash	/^_git_svn ()$/;"	f
+_git_switch	bin/git-completion.bash	/^_git_switch ()$/;"	f
+_git_tag	bin/git-completion.bash	/^_git_tag ()$/;"	f
+_git_whatchanged	bin/git-completion.bash	/^_git_whatchanged ()$/;"	f
+_git_worktree	bin/git-completion.bash	/^_git_worktree ()$/;"	f
+_gitk	bin/git-completion.bash	/^_gitk ()$/;"	f
+_tuple	bin/markdown2ctags.py	/^    def _tuple(self):$/;"	m	class:Tag
+absolute_import	bin/markdown2ctags.py	/^from __future__ import absolute_import$/;"	i
+add_field	bin/markdown2ctags.py	/^    def add_field(self, type, value=None):$/;"	m	class:Tag
+asciidoc_set	vim-include/set-asciidoc.vim	/^augroup asciidoc_set$/;"	a
+atx_heading_re	bin/markdown2ctags.py	/^atx_heading_re = re.compile(r'^(#+)\\s+(.*?)(?:\\s+#+)?\\s*$')$/;"	v
+autoformat	vim-include/set-autoformat.vim	/^augroup autoformat$/;"	a
+cdr	bin/cdr.sh	/^function cdr() {$/;"	f
+chardet	bin/markdown2ctags.py	/^        import chardet$/;"	i
+cli_main	bin/markdown2ctags.py	/^def cli_main():$/;"	f
+codecs	bin/markdown2ctags.py	/^import codecs$/;"	i
+ctag_name_escape	bin/markdown2ctags.py	/^def ctag_name_escape(str):$/;"	f
+ctag_search_escape	bin/markdown2ctags.py	/^def ctag_search_escape(str):$/;"	f
+curl_from_clojuredocs	bin/clojuredocs	/^curl_from_clojuredocs() {$/;"	f
+dequote	bin/git-completion.bash	/^	function dequote(p,    bs_idx, out, esc, esc_idx, dec) {$/;"	f
+detect_encoding	bin/markdown2ctags.py	/^def detect_encoding(filename):$/;"	f
+errno	bin/markdown2ctags.py	/^        import errno$/;"	i
+errno	bin/markdown2ctags.py	/^import errno$/;"	i
+find_sections	bin/markdown2ctags.py	/^def find_sections(filename, lines):$/;"	f
+fortune_helper	vim-include/ft-fortune.vim	/^augroup fortune_helper$/;"	a
+g:AutoPairsFlyMode	init.vim	/^    let g:AutoPairsFlyMode = 0$/;"	v
+g:AutoPairsShortcutBackInsert	init.vim	/^    let g:AutoPairsShortcutBackInsert = ''$/;"	v
+g:AutoPairsShortcutFastWrap	init.vim	/^    let g:AutoPairsShortcutFastWrap = ''$/;"	v
+g:AutoPairsShortcutJump	init.vim	/^    let g:AutoPairsShortcutJump = ''$/;"	v
+g:AutoPairsShortcutToggle	init.vim	/^    let g:AutoPairsShortcutToggle = ''$/;"	v
+g:EasyMotion_smartcase	vim-include/set-easymotion.vim	/^let g:EasyMotion_smartcase = 1$/;"	v
+g:EasyMotion_startofline	vim-include/set-easymotion.vim	/^let g:EasyMotion_startofline = 0 " keep cursor column when JK motion$/;"	v
+g:EasyMotion_use_smartsign_us	vim-include/set-easymotion.vim	/^let g:EasyMotion_use_smartsign_us = 1$/;"	v
+g:EasyMotion_use_upper	vim-include/set-easymotion.vim	/^let g:EasyMotion_use_upper = 1$/;"	v
+g:UltiSnipsEditSplit	vim-include/set-ultisnips.vim	/^let g:UltiSnipsEditSplit="vertical"     " If you want :UltiSnipsEdit to split your window.$/;"	v
+g:UltiSnipsExpandTrigger	vim-include/set-ultisnips.vim	/^let g:UltiSnipsExpandTrigger="<Tab>"$/;"	v
+g:UltiSnipsJumpBackwardTrigger	vim-include/set-ultisnips.vim	/^let g:UltiSnipsJumpBackwardTrigger="<Left>"$/;"	v
+g:UltiSnipsJumpForwardTrigger	vim-include/set-ultisnips.vim	/^let g:UltiSnipsJumpForwardTrigger="<Right>"$/;"	v
+g:UltiSnipsSnippetDirectories	vim-include/set-ultisnips.vim	/^let g:UltiSnipsSnippetDirectories = ['~\/.vim\/UltiSnips']$/;"	v
+g:airline#extensions#tabline#buffer_nr_format	vim-include/set-airline.vim	/^let g:airline#extensions#tabline#buffer_nr_format = '%s:' " buffer number format$/;"	v
+g:airline#extensions#tabline#buffer_nr_show	vim-include/set-airline.vim	/^let g:airline#extensions#tabline#buffer_nr_show = 1 " buffer number 를 보여준다$/;"	v
+g:airline#extensions#tabline#enabled	vim-include/set-airline.vim	/^let g:airline#extensions#tabline#enabled = 1     " vim-airline 버퍼 목록 켜기$/;"	v
+g:airline#extensions#tabline#fnamemod	vim-include/set-airline.vim	/^let g:airline#extensions#tabline#fnamemod = ':t' " vim-airline 버퍼 목록 파일명만 출력$/;"	v
+g:airline_powerline_fonts	vim-include/set-airline.vim	/^let g:airline_powerline_fonts = 1$/;"	v
+g:ale_fix_on_save	init.vim	/^    let g:ale_fix_on_save = 1$/;"	v
+g:ale_fixers	init.vim	/^    let g:ale_fixers = {}$/;"	v
+g:ale_keep_list_window_open	init.vim	/^    let g:ale_keep_list_window_open = 1$/;"	v
+g:ale_lint_on_save	init.vim	/^    let g:ale_lint_on_save = 1$/;"	v
+g:ale_lint_on_text_changed	init.vim	/^    let g:ale_lint_on_text_changed = 0$/;"	v
+g:ale_linters	init.vim	/^    let g:ale_linters = {'clojure': ['clj-kondo']}$/;"	v
+g:ale_open_list	init.vim	/^    let g:ale_open_list = 1$/;"	v
+g:ale_set_loclist	init.vim	/^    let g:ale_set_loclist = 0$/;"	v
+g:ale_set_quickfix	init.vim	/^    let g:ale_set_quickfix = 1$/;"	v
+g:axring_rings	init.vim	/^    let g:axring_rings = [$/;"	v
+g:axring_rings_go	init.vim	/^    let g:axring_rings_go = [$/;"	v
+g:axring_rings_vimwiki	init.vim	/^    let g:axring_rings_vimwiki = [$/;"	v
+g:clojure_conjure_loaded	vim-include/set-clojure.vim	/^let g:clojure_conjure_loaded = v:false$/;"	v
+g:clojure_vim_iced_loaded	vim-include/set-clojure.vim	/^let g:clojure_vim_iced_loaded = v:true$/;"	v
+g:coc_explorer_global_presets	vim-include/set-coc.vim	/^let g:coc_explorer_global_presets = {$/;"	v
+g:conjure#mapping#doc_word	vim-include/set-clojure.vim	/^    let g:conjure#mapping#doc_word = ["\\<Tab>d"]$/;"	v
+g:conjure#mapping#prefix	vim-include/set-clojure.vim	/^    let g:conjure#mapping#prefix = "<leader>"$/;"	v
+g:copilot_no_tab_map	vim-include/set-copilot.vim	/^let g:copilot_no_tab_map = v:false$/;"	v
+g:fzf_launcher	vim-include/set-fzf.vim	/^let g:fzf_launcher = "In_a_new_term_function %s"$/;"	v
+g:go_addtags_transform	vim-include/set-vim-go.vim	/^let g:go_addtags_transform = "camelcase"$/;"	v
+g:go_auto_sameids	vim-include/set-vim-go.vim	/^let g:go_auto_sameids = 1$/;"	v
+g:go_auto_type_info	vim-include/set-vim-go.vim	/^let g:go_auto_type_info = 1$/;"	v
+g:go_autodetect_gopath	vim-include/set-vim-go.vim	/^let g:go_autodetect_gopath = 1$/;"	v
+g:go_def_mapping_enabled	vim-include/set-vim-go.vim	/^    let g:go_def_mapping_enabled = 0$/;"	v
+g:go_doc_keywordprg_enabled	vim-include/set-vim-go.vim	/^let g:go_doc_keywordprg_enabled = 0$/;"	v
+g:go_fmt_command	vim-include/set-vim-go.vim	/^let g:go_fmt_command = "goimports"$/;"	v
+g:go_highlight_extra_types	vim-include/set-vim-go.vim	/^let g:go_highlight_extra_types = 1$/;"	v
+g:go_highlight_fields	vim-include/set-vim-go.vim	/^let g:go_highlight_fields = 1$/;"	v
+g:go_highlight_function_calls	vim-include/set-vim-go.vim	/^let g:go_highlight_function_calls = 1$/;"	v
+g:go_highlight_functions	vim-include/set-vim-go.vim	/^let g:go_highlight_functions = 1$/;"	v
+g:go_highlight_generate_tags	vim-include/set-vim-go.vim	/^let g:go_highlight_generate_tags = 1$/;"	v
+g:go_highlight_operators	vim-include/set-vim-go.vim	/^let g:go_highlight_operators = 1$/;"	v
+g:go_highlight_types	vim-include/set-vim-go.vim	/^let g:go_highlight_types = 1$/;"	v
+g:go_info_mode	vim-include/set-vim-go.vim	/^let g:go_info_mode='guru'$/;"	v
+g:go_list_type	vim-include/set-vim-go.vim	/^let g:go_list_type = "quickfix"$/;"	v
+g:go_template_autocreate	vim-include/set-vim-go.vim	/^let g:go_template_autocreate = 0$/;"	v
+g:gutentags_ctags_exclude	vim-include/set-gutentags.vim	/^let g:gutentags_ctags_exclude=["node_modules"]$/;"	v
+g:gutentags_resolve_symlinks	vim-include/set-gutentags.vim	/^let g:gutentags_resolve_symlinks = 1$/;"	v
+g:iced#buffer#stdout#mods	vim-include/set-clojure.vim	/^let g:iced#buffer#stdout#mods = 'vertical'$/;"	v
+g:iced#buffer#stdout#size	vim-include/set-clojure.vim	/^let g:iced#buffer#stdout#size = v:null$/;"	v
+g:iced#nrepl#enable_sideloader	vim-include/set-clojure.vim	/^let g:iced#nrepl#enable_sideloader = v:true$/;"	v
+g:iced_default_key_mapping_leader	vim-include/set-clojure.vim	/^let g:iced_default_key_mapping_leader = '<Leader>'$/;"	v
+g:iced_enable_clj_kondo_analysis	vim-include/set-clojure.vim	/^let g:iced_enable_clj_kondo_analysis = v:true$/;"	v
+g:iced_enable_default_key_mappings	vim-include/set-clojure.vim	/^let g:iced_enable_default_key_mappings = v:true$/;"	v
+g:less	vim-include/set-vimpager.vim	/^    let g:less     = {}$/;"	v
+g:less	vim-include/set-vimpager.vim	/^    let g:less.enabled = 0$/;"	v
+g:less	vim-include/set-vimpager.vim	/^    let g:less.scrolloff = 0$/;"	v
+g:loaded_clojure_setting	vim-include/set-clojure.vim	/^let g:loaded_clojure_setting = 1$/;"	v
+g:md_modify_disabled	vim-include/set-vimwiki.vim	/^let g:md_modify_disabled = 0$/;"	v
+g:multi_cursor_next_key	init.vim	/^    let g:multi_cursor_next_key='<C-n>'$/;"	v
+g:multi_cursor_prev_key	init.vim	/^    let g:multi_cursor_prev_key='<C-p>'$/;"	v
+g:multi_cursor_quit_key	init.vim	/^    let g:multi_cursor_quit_key='<Esc>'$/;"	v
+g:multi_cursor_skip_key	init.vim	/^    let g:multi_cursor_skip_key='<C-x>'$/;"	v
+g:rainbow_active	init.vim	/^    let g:rainbow_active = 1 "0 if you want to enable it later via :RainbowToggle$/;"	v
+g:startify_bookmarks	vim-include/set-startify.vim	/^let g:startify_bookmarks = [$/;"	v
+g:startify_change_to_vcs_root	vim-include/set-startify.vim	/^let g:startify_change_to_vcs_root = 1$/;"	v
+g:startify_commands	vim-include/set-startify.vim	/^let g:startify_commands = [$/;"	v
+g:startify_custom_header	vim-include/set-startify.vim	/^let g:startify_custom_header = [$/;"	v
+g:startify_fortune_use_unicode	vim-include/set-startify.vim	/^let g:startify_fortune_use_unicode = 1$/;"	v
+g:startify_list_order	vim-include/set-startify.vim	/^let g:startify_list_order = [$/;"	v
+g:startify_session_persistence	vim-include/set-startify.vim	/^let g:startify_session_persistence = 1$/;"	v
+g:startify_session_sort	vim-include/set-startify.vim	/^let g:startify_session_sort = 1$/;"	v
+g:startify_update_oldfiles	vim-include/set-startify.vim	/^let g:startify_update_oldfiles = 1$/;"	v
+g:syntastic_always_populate_loc_list	init.vim	/^    let g:syntastic_always_populate_loc_list = 1$/;"	v
+g:syntastic_auto_loc_list	init.vim	/^    let g:syntastic_auto_loc_list = 0$/;"	v
+g:syntastic_auto_loc_list	init.vim	/^    let g:syntastic_auto_loc_list = 1$/;"	v
+g:syntastic_check_on_open	init.vim	/^    let g:syntastic_check_on_open = 1$/;"	v
+g:syntastic_check_on_wq	init.vim	/^    let g:syntastic_check_on_wq = 0$/;"	v
+g:syntastic_mode_map	init.vim	/^    let g:syntastic_mode_map = { 'mode': 'passive' }$/;"	v
+g:syntastic_php_checkers	init.vim	/^    let g:syntastic_php_checkers = ['php']$/;"	v
+g:toggle_list_no_mappings	vim-include/set-vim-go.vim	/^let g:toggle_list_no_mappings = 1$/;"	v
+g:vim_game_code_break_item_limit	init.vim	/^    let g:vim_game_code_break_item_limit = 8$/;"	v
+g:vim_wiki_set_path	vim-include/set-vimwiki.vim	/^let g:vim_wiki_set_path = expand('<sfile>:p:h')$/;"	v
+g:vimpager	vim-include/set-vimpager.vim	/^    let g:vimpager = {}$/;"	v
+g:vimpager	vim-include/set-vimpager.vim	/^    let g:vimpager.enabled = 1$/;"	v
+g:vimpager	vim-include/set-vimpager.vim	/^    let g:vimpager.gvim = 1$/;"	v
+g:vimpager	vim-include/set-vimpager.vim	/^    let g:vimpager.scrolloff = 0$/;"	v
+g:vimwiki_conceallevel	vim-include/set-vimwiki.vim	/^let g:vimwiki_conceallevel = 0$/;"	v
+g:vimwiki_list	vim-include/set-vimwiki.vim	/^let g:vimwiki_list = [$/;"	v
+g:vimwiki_table_mappings	vim-include/set-vimwiki.vim	/^let g:vimwiki_table_mappings = 0$/;"	v
+g:vrc_curl_opts	vim-include/set-vim-rest-console.vim	/^let g:vrc_curl_opts = {$/;"	v
+g:vrc_debug	vim-include/set-vim-rest-console.vim	/^let g:vrc_debug = 0$/;"	v
+g:vrc_response_default_content_type	vim-include/set-vim-rest-console.vim	/^let g:vrc_response_default_content_type = 'application\/json'$/;"	v
+g:vrc_show_command	vim-include/set-vim-rest-console.vim	/^let g:vrc_show_command = 1$/;"	v
+g:ycm_collect_identifiers_from_comments_and_strings	vim-include/set-youcompleteme.vim	/^let g:ycm_collect_identifiers_from_comments_and_strings = 1$/;"	v
+g:ycm_complete_in_comments	vim-include/set-youcompleteme.vim	/^let g:ycm_complete_in_comments = 1$/;"	v
+g:ycm_complete_in_strings	vim-include/set-youcompleteme.vim	/^let g:ycm_complete_in_strings = 1$/;"	v
+g:ycm_filetype_blacklist	vim-include/set-youcompleteme.vim	/^let g:ycm_filetype_blacklist = {}$/;"	v
+g:ycm_key_list_previous_completion	vim-include/set-youcompleteme.vim	/^let g:ycm_key_list_previous_completion=['<C-p>']$/;"	v
+g:ycm_key_list_select_completion	vim-include/set-youcompleteme.vim	/^let g:ycm_key_list_select_completion = ['<C-n>']    " 본래 <Tab> 이지만 ultisnip 과 충돌을 막기 위해 변경$/;"	v
+g:ycm_min_num_of_chars_for_completion	vim-include/set-youcompleteme.vim	/^let g:ycm_min_num_of_chars_for_completion = 1$/;"	v
+g:ycm_server_python_interpreter	vim-include/set-youcompleteme.vim	/^let g:ycm_server_python_interpreter = '\/usr\/local\/bin\/python3'$/;"	v
+gd	vim-include/set-coc.vim	/^nmap <silent> gd <Plug>(coc-definition)$/;"	m
+gen_tags_content	bin/markdown2ctags.py	/^def gen_tags_content(output, sort, tags):$/;"	f
+gen_tags_header	bin/markdown2ctags.py	/^def gen_tags_header(output, sort):$/;"	f
+get_diff	bin/mydate	/^get_diff() {$/;"	f
+gi	vim-include/set-coc.vim	/^nmap <silent> gi <Plug>(coc-implementation)$/;"	m
+git_commit_helper	vim-include/ft-gitcommit.vim	/^augroup git_commit_helper$/;"	a
+gj	init.vim	/^    nnoremap gj j$/;"	m
+gk	init.vim	/^    nnoremap gk k$/;"	m
+gr	vim-include/set-coc.vim	/^nmap <silent> gr <Plug>(coc-references)$/;"	m
+gy	vim-include/set-coc.vim	/^nmap <silent> gy <Plug>(coc-type-definition)$/;"	m
+io	bin/markdown2ctags.py	/^import io$/;"	i
+j	init.vim	/^    nnoremap j gj$/;"	m
+k	init.vim	/^    nnoremap k gk$/;"	m
+locale	bin/markdown2ctags.py	/^import locale$/;"	i
+main	bin/clojuredocs	/^main() {$/;"	f
+main	bin/file-memo	/^main() {$/;"	f
+main	bin/markdown2ctags.py	/^def main():$/;"	f
+main	bin/mydate	/^main() {$/;"	f
+mapleader	init.vim	/^    let mapleader = "\\<Space>"$/;"	v
+maplocalleader	init.vim	/^    let maplocalleader = "\\\\"$/;"	v
+open_autoenc	bin/markdown2ctags.py	/^def open_autoenc(filename, encoding=None):$/;"	f
+perl6	vim-include/ft-perl6.vim	/^augroup perl6$/;"	a
+pop_sections	bin/markdown2ctags.py	/^def pop_sections(sections, level):$/;"	f
+printAll	bin/mydate	/^printAll() {$/;"	f
+print_error	bin/markdown2ctags.py	/^def print_error(e):$/;"	f
+print_function	bin/markdown2ctags.py	/^from __future__ import print_function$/;"	i
+print_warning	bin/markdown2ctags.py	/^def print_warning(e):$/;"	f
+re	bin/markdown2ctags.py	/^import re$/;"	i
+render	bin/markdown2ctags.py	/^    def render(self):$/;"	m	class:Tag
+s	init.vim	/^    nnoremap <silent>s <S-">$/;"	m
+s	init.vim	/^    vnoremap <silent>s <S-">$/;"	m
+s:undoDir	init.vim	/^        let s:undoDir = expand(s:vimDir . '\/undodir')$/;"	v
+s:vimDir	init.vim	/^        let s:vimDir = '$HOME\/.vim'$/;"	v
+s:vrc_auto_format_response_patterns	vim-include/set-vim-rest-console.vim	/^let s:vrc_auto_format_response_patterns = {$/;"	v
+sK	vim-include/set-coc.vim	/^nnoremap <silent> sK :call <SID>show_documentation()<CR>$/;"	m
+save_each_example	bin/clojuredocs	/^save_each_example() {$/;"	f
+search_list	bin/clojuredocs	/^search_list() {$/;"	f
+section	bin/markdown2ctags.py	/^    def section(section, sro):$/;"	m	class:Tag
+sections_to_tags	bin/markdown2ctags.py	/^def sections_to_tags(sections, sro):$/;"	f
+setgroup	init.vim	/^    augroup setgroup$/;"	a
+settext_heading_re	bin/markdown2ctags.py	/^settext_heading_re = re.compile(r'^[-=]+$')$/;"	v
+settext_subject_re	bin/markdown2ctags.py	/^settext_subject_re = re.compile(r'^[^\\s]+.*$')$/;"	v
+show_documentation	vim-include/set-typescript.vim	/^function! s:show_documentation()$/;"	f
+show_examples	bin/clojuredocs	/^show_examples() {$/;"	f
+sys	bin/markdown2ctags.py	/^import sys$/;"	i
+todoauto	vim-include/set-vimwiki.vim	/^augroup todoauto$/;"	a
+vim_clojure_coc	vim-include/set-clojure.vim	/^augroup vim_clojure_coc$/;"	a
+vim_iced	vim-include/set-clojure.vim	/^augroup vim_iced$/;"	a
+vimgo	vim-include/set-vim-go.vim	/^augroup vimgo$/;"	a
+vimphp	vim-include/set-php.vim	/^augroup vimphp$/;"	a
+vimrust	vim-include/set-rust.vim	/^augroup vimrust$/;"	a
+vimstartify	vim-include/set-startify.vim	/^augroup vimstartify$/;"	a
+vimtypescript	vim-include/set-typescript.vim	/^augroup vimtypescript$/;"	a
+vimwiki_tagbar	vim-include/set-vimwiki.vim	/^augroup vimwiki_tagbar$/;"	a
+vimwikiauto	vim-include/set-vimwiki.vim	/^augroup vimwikiauto$/;"	a

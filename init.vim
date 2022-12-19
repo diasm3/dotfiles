@@ -4,7 +4,9 @@ call plug#begin('~/.config/nvim/plugged')
     "Google calandar"
     Plug 'itchyny/calendar.vim'
     Plug 'puremourning/vimspector'
-
+    Plug 'junegunn/vim-emoji'
+    Plug 'rcarriga/nvim-notify'
+    Plug 'nathanaelkane/vim-indent-guides'
 
     " VIM POWER
     Plug 'Shougo/vimproc.vim', {'do' : 'make'}
@@ -27,7 +29,7 @@ call plug#begin('~/.config/nvim/plugged')
     Plug 'ryanoasis/vim-devicons'
         " Plug 'jistr/vim-nerdtree-tabs'
     Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
-        Plug 'junegunn/fzf.vim'
+    Plug 'junegunn/fzf.vim'
 
     " editing
     Plug 'tpope/vim-surround'
@@ -80,7 +82,7 @@ call plug#begin('~/.config/nvim/plugged')
     Plug 'tomasr/molokai'
     Plug 'johngrib/hosu'
 
-    " Plug 'leafgarland/typescript-vim'
+    Plug 'leafgarland/typescript-vim'
     Plug 'milkypostman/vim-togglelist'
     " Plug 'jszakmeister/vim-togglecursor'
     Plug 'johngrib/vim-git-msg-wheel'
@@ -141,14 +143,14 @@ if &compatible
 endif
 
 " Required:
-set runtimepath+=/Users/steve/.cache/dein/repos/github.com/Shougo/dein.vim
+set runtimepath+=/Users/semyungpark/.cache/dein/repos/github.com/Shougo/dein.vim
 
 " Required:
-call dein#begin('/Users/steve/.cache/dein')
+call dein#begin('/Users/semyungpark/.cache/dein')
 
 " Let dein manage dein
 " Required:
-call dein#add('/Users/steve/.cache/dein/repos/github.com/Shougo/dein.vim')
+call dein#add('/Users/semyungpark/.cache/dein/repos/github.com/Shougo/dein.vim')
 
 " Add or remove your plugins here like this:
 "call dein#add('Shougo/neosnippet.vim')
@@ -176,11 +178,11 @@ syntax enable
 "
 " google calandar
 
-source ~/.cache/calendar.vim/credentials.vim
-
-let g:calendar_google_calendar = 1
-let g:calendar_google_task = 1
-
+"source ~/.cache/calendar.vim/credentials.vim
+"
+"let g:calendar_google_calendar = 1
+"let g:calendar_google_task = 1
+"
 function! InstallCocPlugins()
     CocInstall coc-rls
     CocInstall coc-tsserver
@@ -590,8 +592,7 @@ else
   let &t_EI = "\<Esc>]50;CursorShape=0\x7"
 endif
 
-" Autosave: https://github.com/907th/vim-auto-save
-let g:auto_save_silent = 1
+" Autosave: https://github.com/907th/vim-auto-save let g:auto_save_silent = 1
 
 for include_file in uniq(sort(globpath(&rtp, 'vim-include/*.vim', 0, 1)))
     execute "source " . include_file
@@ -612,5 +613,7 @@ iabbr ㄱ.. 그리고
 
 set fileencodings=utf-8,euc-kr
 
-let g:vimspector_enable_mappings = 'HUMAN'
-packadd! vimspector
+set completefunc=emoji#complete
+
+"let g:vimspector_enable_mappings = 'HUMAN'
+"packadd! vimspector
