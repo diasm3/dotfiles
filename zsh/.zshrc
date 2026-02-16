@@ -4,13 +4,9 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
-# Path to Oh My Zsh installation
 export ZSH="$HOME/.oh-my-zsh"
-
-# Set theme to Powerlevel10k
 ZSH_THEME="powerlevel10k/powerlevel10k"
 
-# Enable plugins for better autocompletion
 plugins=(
     git
     zsh-autosuggestions
@@ -18,10 +14,8 @@ plugins=(
     zsh-completions
 )
 
-# Load Oh My Zsh
 source $ZSH/oh-my-zsh.sh
 
-# Enhanced completion settings
 zstyle ':completion:*' menu select
 zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'
 setopt COMPLETE_IN_WORD
@@ -42,34 +36,34 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
-# The following lines have been added by Docker Desktop to enable Docker CLI completions.
-fpath=(/Users/bagsemyeong/.docker/completions $fpath)
+# Docker CLI completions
+fpath=($HOME/.docker/completions $fpath)
 autoload -Uz compinit
 compinit
-# End of Docker CLI completions
-export PATH="$HOME/.local/bin:$PATH"
 
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+# PATH
+export PATH="$HOME/.local/bin:$PATH"
 export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
-export PATH="$HOME/.local/bin:$PATH"
-export PATH="$HOME/.local/bin:$PATH"
+export PATH="/opt/homebrew/share/google-cloud-sdk/bin:$PATH"
+
+# Android SDK
 export ANDROID_HOME=$HOME/Library/Android/sdk
 export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 
+# Rust
 . "$HOME/.local/bin/env"
-export PATH="/opt/homebrew/share/google-cloud-sdk/bin:$PATH"
 
 # opencode
-export PATH=/Users/bagsemyeong/.opencode/bin:$PATH
-
-# bun completions
-[ -s "/Users/bagsemyeong/.bun/_bun" ] && source "/Users/bagsemyeong/.bun/_bun"
+export PATH="$HOME/.opencode/bin:$PATH"
 
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
+[ -s "$HOME/.bun/_bun" ] && source "$HOME/.bun/_bun"
 
-# Added by Antigravity
-export PATH="/Users/bagsemyeong/.antigravity/antigravity/bin:$PATH"
+# Antigravity
+export PATH="$HOME/.antigravity/antigravity/bin:$PATH"
+
+# p10k
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

@@ -65,7 +65,9 @@ link "$DOTFILES/tmux/.tmux.conf" "$HOME/.tmux.conf"
 link "$DOTFILES/zsh/.zshrc" "$HOME/.zshrc"
 link "$DOTFILES/zsh/.zprofile" "$HOME/.zprofile"
 
-# --- Post-install ---
+# WezTerm
+link "$DOTFILES/wezterm/.wezterm.lua" "$HOME/.wezterm.lua"
+
 echo "[5/5] Post-install..."
 echo "  Run 'nvim' to let LazyVim install plugins automatically."
 echo "  Run 'p10k configure' to setup Powerlevel10k theme."

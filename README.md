@@ -1,6 +1,6 @@
 # dotfiles
 
-macOS dev environment: LazyVim + tmux + zsh (oh-my-zsh + p10k)
+macOS dev environment: LazyVim + tmux + WezTerm + zsh (oh-my-zsh + p10k)
 
 ## Structure
 
@@ -8,6 +8,7 @@ macOS dev environment: LazyVim + tmux + zsh (oh-my-zsh + p10k)
 dotfiles/
 ├── nvim/           # LazyVim config (~/.config/nvim)
 ├── tmux/           # tmux config (~/.tmux.conf)
+├── wezterm/        # WezTerm config (~/.wezterm.lua)
 ├── zsh/            # zshrc + zprofile
 ├── Brewfile        # brew packages
 └── install.sh      # symlink installer
@@ -39,6 +40,11 @@ cd ~/dotfiles
 - **Clipboard**: OSC 52 passthrough (SSH remote copy)
 - **Scratch terminal**: `Ctrl+a t` (popup, session persists)
 - **256 color** + undercurl support
+
+### WezTerm
+
+- **Font**: FiraCode Nerd Font (fallback: D2Coding)
+- **Font size**: 14
 
 ### Zsh
 
